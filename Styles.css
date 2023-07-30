@@ -1,0 +1,82 @@
+body {
+    background-image: url("Background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.instructions-text {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 32rem;
+    margin-top: 4rem;
+}
+
+
+.calculator {
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    height: 24rem;
+    width: 24rem;
+    margin-left: 32rem;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-form {
+    background-color: black;
+    color: white;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.top-row {
+    margin-top: 5rem;
+    margin-left: -13rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.middle-row {
+    margin-top: 0.5rem;
+    margin-left: -13rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttom-row {
+    margin-top: 0.5rem;
+    margin-left: -13rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.operation-row {
+    margin-top: 0.8rem;
+    margin-left: -13rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-item {
+    border: 0.10rem solid black;
+    padding: 1rem;
+}
+
+.equals-symbol {
+    border: 0.15rem solid red;
+    padding: 1rem 1rem 1rem 9.2rem;
+    display: flex;
+    align-items: center;
+    /* Does not work. */
+}
