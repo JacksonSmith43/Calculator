@@ -1,8 +1,3 @@
-/*let numberOne = 33;
-let numerTwo = 3;
-let result = numberOne / numerTwo;
-
-console.log('The result of ', numberOne, 'divided by ', numerTwo, ' is ', result, '.');
-*/
-let calculatorInput = document.getElementById('calculator-input');
-
+let calculatorInput = document.getElementsByClassName('calculator-form');
+//let number = document.querySelector('all-rows');
+let operation = document.querySelector('.operation-row div');
