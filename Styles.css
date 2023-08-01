@@ -1,16 +1,18 @@
 body {
-    background-image: url('/Images/Background2.jpg');
+    background-image: url('/Images/Background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 .instructions-text {
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 2rem;
     margin-left: 32rem;
@@ -30,15 +32,23 @@ h1 {
     justify-content: center;
 }
 
+
+
 .calculator-form {
-    background-color: black;
+    border: solid black;
+    border-radius: 0.5rem;
+    background-color: gray;
     color: white;
-    height: 2rem;
+    height: 3.5rem;
+    width: 13rem;
     margin-top: 1rem;
+    font-size: 2.5rem;
+    /*   transition: all .2s ease-in-out;*/
 }
 
+
 .top-row {
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-left: -13rem;
     display: flex;
     justify-content: space-between;
@@ -54,11 +64,11 @@ h1 {
 }
 
 .buttom-row {
+    /* . and C row. */
     margin-top: 0.5rem;
     margin-left: -13rem;
     display: flex;
     justify-content: space-between;
-
 }
 
 .operation-row {
