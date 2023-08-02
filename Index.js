@@ -1,3 +1,7 @@
 let calculatorInput = document.getElementsByClassName('calculator-form');
-//let number = document.querySelector('all-rows');
 let operation = document.querySelector('.operation-row div');
+let result = document.getElementsByClassName('equals-symbol');
+let clear = document.getElementsByClassName('clear-symbol');
+let dot = document.getElementsByClassName('dot-symbol');
+let numbers = document.querySelectorAll('#numbers div');
+

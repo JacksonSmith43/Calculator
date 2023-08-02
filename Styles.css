@@ -82,6 +82,15 @@ h1 {
     border: 0.10rem solid black;
     padding: 1rem;
 }
+.clear-symbol{
+    border: 0.10rem solid black;
+    padding: 1rem;
+}
+
+.dot-symbol{
+    border: 0.10rem solid black;
+    padding: 1rem;
+}
 
 .equals-symbol {
     border: 0.15rem solid red;
