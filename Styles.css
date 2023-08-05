@@ -47,6 +47,7 @@ h1 {
 }
 
 
+
 .top-row {
     margin-top: 6rem;
     margin-left: -13rem;
@@ -82,12 +83,13 @@ h1 {
     border: 0.10rem solid black;
     padding: 1rem;
 }
-.clear-symbol{
+
+.clear-symbol {
     border: 0.10rem solid black;
     padding: 1rem;
 }
 
-.dot-symbol{
+.dot-symbol {
     border: 0.10rem solid black;
     padding: 1rem;
 }

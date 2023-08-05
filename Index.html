@@ -27,37 +27,46 @@
 
         <div class="calculator">
 
-           <!-- <input type="number" aria-label="Type numbers and operand for calculator." class="calculator-form"> -->
-            <div class="calculator-form"></div>
+            <!-- <input type="number" aria-label="Type numbers and operand for calculator." class="calculator-form"> -->
+            <form>
+                <div class="calculator-form">
+                    <input type="text" name="display"></input>
+                </div>
+            </form>
 
             <div class="all-rows">
                 <div class="top-row" id="numbers">
-                    <div class="grid-item">1</div>
-                    <div class="grid-item">2</div>
-                    <div class="grid-item">3</div>
-                    <div class="grid-item">4</div>
-                    <div class="grid-item">5</div>
-
+                    <form>
+                        <input class="grid-item" type="button" value="1" onclick="display.value = '1' ">
+                        <input class="grid-item" type="button" value="2">
+                        <input class="grid-item" type="button" value="3">
+                        <input class="grid-item" type="button" value="4">
+                        <input class="grid-item" type="button" value="5">
+                    </form>
                 </div>
                 <div class="middle-row" id="numbers">
-                    <div class="grid-item">6</div>
-                    <div class="grid-item">7</div>
-                    <div class="grid-item">8</div>
-                    <div class="grid-item">9</div>
-                    <div class="grid-item">0</div>
-
+                    <form>
+                        <input class="grid-item" type="button" value="6">
+                        <input class="grid-item" type="button" value="7">
+                        <input class="grid-item" type="button" value="8">
+                        <input class="grid-item" type="button" value="9">
+                        <input class="grid-item" type="button" value="0">
+                    </form>
                 </div>
                 <div class="buttom-row">
-                    <div class="dot-symbol">.</div>
-                    <div class="clear-symbol">C</div>
-                    <div class="equals-symbol">=</div>
-
+                    <form></form>
+                    <input class="dot-symbol" type="button" value=".">
+                    <input class="clear-symbol" type="button" value="C">
+                    <input class="equals-symbol" type="button" value="=">
+                    </form>
                 </div>
                 <div class="operation-row">
-                    <div class="grid-item">+</div>
-                    <div class="grid-item">-</div>
-                    <div class="grid-item">*</div>
-                    <div class="grid-item">/</div>
+                    <form>
+                        <input class="grid-item" type="button" value="+">
+                        <input class="grid-item" type="button" value="-">
+                        <input class="grid-item" type="button" value="*">
+                        <input class="grid-item" type="button" value="/">
+                    </form>
                 </div>
             </div>
         </div>
