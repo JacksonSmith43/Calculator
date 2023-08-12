@@ -86,7 +86,7 @@ h1 {
 }
 
 .clear-symbol {
-    border: 0.10rem solid black;
+    border: 0.15rem solid black;
     padding: 1rem;
 }
 
@@ -99,7 +99,4 @@ h1 {
     border: 0.15rem solid red;
     height: 4rem;
     width: 8rem;
-    display: flex;
-    align-items: center;
-    /* Does not work. */
 }
