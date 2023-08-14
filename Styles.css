@@ -9,15 +9,16 @@ body {
 h1 {
     text-align: center;
     color: white;
+    margin-bottom: 2rem;
 }
 
-.instructions-text {
+/*.instructions-text {
     color: white;
     font-weight: bold;
     font-size: 2rem;
     margin-left: 32rem;
     margin-top: 4rem;
-}
+}*/
 
 
 .calculator {
@@ -26,12 +27,11 @@ h1 {
     border-color: black;
     border-style: solid;
     height: 24rem;
-    width: 24rem;
+    width: 23rem;
     margin-left: 32rem;
-    display: flex;
     justify-content: center;
-}
 
+}
 
 
 .calculator-form input {
@@ -41,43 +41,24 @@ h1 {
     color: white;
     height: 3.5rem;
     width: 13rem;
-    margin-top: 1rem;
+    margin: 1rem 2rem 1rem 4rem;
     font-size: 2.5rem;
     /*   transition: all .2s ease-in-out;*/
     text-align: left;
+    pointer-events: none;
+}
+
+#numbers {
+    padding: 1rem 4rem 0rem 4rem;
 }
 
 
-
-.top-row {
-    margin-top: 6rem;
-    margin-left: -13rem;
-    display: flex;
-    justify-content: space-between;
-
+#symbols-row {
+    padding: 0rem 4rem 0rem 4rem;
 }
 
-.middle-row {
-    margin-top: 0.5rem;
-    margin-left: -13rem;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.buttom-row {
-    /* . and C row. */
-    margin-top: 0.5rem;
-    margin-left: -13rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.operation-row {
-    margin-top: 0.8rem;
-    margin-left: -13rem;
-    display: flex;
-    justify-content: space-between;
+#operation-row {
+    margin-top: 0.20rem;
 }
 
 .grid-item {
@@ -98,5 +79,30 @@ h1 {
 .equals-symbol {
     border: 0.15rem solid red;
     height: 4rem;
-    width: 8rem;
+    width: 8.6rem;
+    margin-top: 0.1rem;
+}
+
+.plus-symbol {
+    border: 0.10rem solid black;
+    width: 3rem;
+    height: 3rem;
+}
+
+.minus-symbol {
+    border: 0.10rem solid black;
+    width: 3rem;
+    height: 3rem;
+}
+
+.mal-symbol {
+    border: 0.10rem solid black;
+    width: 3rem;
+    height: 3rem;
+}
+
+.divide-symbol {
+    border: 0.10rem solid black;
+    width: 3rem;
+    height: 3rem;
 }

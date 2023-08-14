@@ -21,55 +21,41 @@
 
     <h1>Calculator</h1>
 
-    <div class="calculator-container">
+    <!--  <p class="instructions-text">Please enter: Number, Operation, Number.</p>  -->
 
-        <p class="instructions-text">Please enter: Number, Operation, Number.</p>
+    <div class="calculator">
 
-        <div class="calculator">
+        <!-- <input type="number" aria-label="Type numbers and operand for calculator." class="calculator-form"> -->
+        <form class="calculator-form">
+            <input type="text" name="display"></input>
+        </form>
 
-            <!-- <input type="number" aria-label="Type numbers and operand for calculator." class="calculator-form"> -->
-            <form class="calculator-form">
-                    <input type="text" name="display"></input>
-            </form>
+        <div class="container-xxl" id="numbers">
+            <button class="grid-item" type="button" data-num="1">1</button>
+            <button class="grid-item" type="button" data-num="2">2</button>
+            <button class="grid-item" type="button" data-num="3">3</button>
+            <button class="grid-item" type="button" data-num="4">4</button>
+            <button class="grid-item" type="button" data-num="5">5</button>
+            <button class="grid-item" type="button" data-num="6">6</button>
+            <button class="grid-item" type="button" data-num="7">7</button>
+            <button class="grid-item" type="button" data-num="8">8</button>
+            <button class="grid-item" type="button" data-num="9">9</button>
+            <button class="grid-item" type="button" data-num="0">0</button>
+        </div>
 
-            <div class="all-buttons">
-                <div class="top-row" id="numbers">
+        <div class="container-xxl" id="symbols-row">
+            <button class="dot-symbol" type="button" data-num=".">.</button>
+            <button class="clear-symbol" type="button" data-num="C">C</button>
+            <button class="equals-symbol" type="button" data-num="=">=</button>
 
-                    <button class="grid-item btn" type="button" data-num="1">1</button>
-                    <button class="grid-item" type="button" data-num="2">2</button>
-                    <button class="grid-item" type="button" data-num="3">3</button>
-                    <button class="grid-item" type="button" data-num="4">4</button>
-                    <button class="grid-item" type="button" data-num="5">5</button>
-
-                </div>
-                <div class="middle-row" id="numbers">
-                    <form>
-                        <button class="grid-item" type="button" data-num="6">6</button>
-                        <button class="grid-item" type="button" data-num="7">7</button>
-                        <button class="grid-item" type="button" data-num="8">8</button>
-                        <button class="grid-item" type="button" data-num="9">9</button>
-                        <button class="grid-item" type="button" data-num="0">0</button>
-                    </form>
-                </div>
-                <div class="buttom-row">
-                    <form>
-                    <button class="dot-symbol" type="button" data-num=".">.</button>
-                    <button class="clear-symbol" type="button" data-num="C">C</button>
-                    <button class="equals-symbol" type="button" data-num="=">=</button>
-                    </form>
-                </div>
-                <div class="operation-row">
-                    <form>
-                        <button class="grid-item" type="button" data-num="+">+</button>
-                        <button class="grid-item" type="button" data-num="-">-</button>
-                        <button class="grid-item" type="button" data-num="*">*</button>
-                        <button class="grid-item" type="button" data-num="/">/</button>
-                    </form>
-                </div>
+            <div class="container-xxl" id="operation-row">
+                <button class="plus-symbol" type="button" data-num="+">+</button>
+                <button class="minus-symbol" type="button" data-num="-">-</button>
+                <button class="mal-symbol" type="button" data-num="*">*</button>
+                <button class="divide-symbol" type="button" data-num="/">/</button>
             </div>
         </div>
     </div>
-
 
     <script src="Index.js"></script>
 
