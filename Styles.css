@@ -48,6 +48,10 @@ h1 {
     pointer-events: none;
 }
 
+.calculator-form input:focus {
+    border: solid red;
+}
+
 #buttons {
     padding: 1rem 4rem 0rem 4rem;
 }
