@@ -52,6 +52,7 @@ h1 {
     padding: 1rem 4rem 0rem 4rem;
 }
 
+
 .grid-item {
     border: 0.10rem solid black;
     padding: 1rem;
@@ -67,4 +68,29 @@ h1 {
     height: 3.2rem;
     width: 8.3rem;
     margin-top: 0.1rem;
+}
+
+
+/*Phones.*/
+@media (min-width:320px) and (max-width:480px) {
+    h1 {
+        margin-bottom: 0.5rem;
+    }
+
+    .calculator {
+        margin-left: 1.5rem;
+    }
+}
+
+@media (min-width:481px) and (max-width:799px) {
+    .calculator {
+        margin-left: 0.5rem;
+    }
+}
+
+/*iPad.*/
+@media (min-width:800px) and (max-width:900px) {
+    .calculator {
+        margin-left: 13.5rem;
+    }
 }
