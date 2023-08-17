@@ -1,29 +1,25 @@
-(function () {
+let calculatorInput = document.querySelector('input[name="display"]');
+let buttons = document.querySelectorAll('button');
 
-    let calculatorInput = document.querySelector('input[name="display"]'); let operation = document.querySelector('#operation-row');
-    let equal = document.getElementsByClassName('equals-symbol');
-    let clear = document.getElementsByClassName('.clear-symbol');
-    let dot = document.getElementsByClassName('dot-symbol');
-    let numbers = document.querySelectorAll('.grid-item');
+let calculation = [];
+let accumulativeCalculation;
 
-    numbers.forEach(function (button) {
-        button.addEventListener('click', function (e) {
-            let value = e.target.dataset.num;
-            calculatorInput.value += value;
-        })
-    });
+function calculate(button) {
+    const value = button.textContent;
 
-    equal.addEventListener('click', function (e) {
-        if (display.value === '') {
-            display.value = "";
-        } else {
-            let answer = eval(disply.value);
-            disply.value = answer;
-        }
-    })
+    if (value === "C") {
+        calculation = [];
+        calculatorInput.value = '';
 
-    clear.addEventListener('click', function(e){
-        disply.value = "";
-    })
+    } else if (value === "=") {
+        console.log(accumulativeCalculation);
+        calculatorInput.value = eval(accumulativeCalculation);
 
-})();
+    } else {
+        calculation.push(value);
+        accumulativeCalculation = calculation.join('');
+        calculatorInput.value = accumulativeCalculation;
+    }
+}
+
+buttons.forEach(button => button.addEventListener('click', () => calculate(button)));

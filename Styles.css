@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Images/Background.jpg');
+    background-image: url('/Images/Background2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
@@ -8,7 +8,7 @@ body {
 
 h1 {
     text-align: center;
-    color: white;
+    color: black;
     margin-bottom: 2rem;
 }
 
@@ -48,17 +48,8 @@ h1 {
     pointer-events: none;
 }
 
-#numbers {
+#buttons {
     padding: 1rem 4rem 0rem 4rem;
-}
-
-
-#symbols-row {
-    padding: 0rem 4rem 0rem 4rem;
-}
-
-#operation-row {
-    margin-top: 0.20rem;
 }
 
 .grid-item {
@@ -71,38 +62,9 @@ h1 {
     padding: 1rem;
 }
 
-.dot-symbol {
-    border: 0.10rem solid black;
-    padding: 1rem;
-}
-
 .equals-symbol {
     border: 0.15rem solid red;
-    height: 4rem;
-    width: 8.6rem;
+    height: 3.2rem;
+    width: 8.3rem;
     margin-top: 0.1rem;
-}
-
-.plus-symbol {
-    border: 0.10rem solid black;
-    width: 3rem;
-    height: 3rem;
-}
-
-.minus-symbol {
-    border: 0.10rem solid black;
-    width: 3rem;
-    height: 3rem;
-}
-
-.mal-symbol {
-    border: 0.10rem solid black;
-    width: 3rem;
-    height: 3rem;
-}
-
-.divide-symbol {
-    border: 0.10rem solid black;
-    width: 3rem;
-    height: 3rem;
 }
